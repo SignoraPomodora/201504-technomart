@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Марина Венёвцева](https://up.htmlacademy.ru/htmlcss/13/user/201504).
-* Наставник: [Алексей Гурьев](https://up.htmlacademy.ru/htmlcss/13/user/205403).
+* Наставник: [Алексей ag Гурьев](https://up.htmlacademy.ru/htmlcss/13/user/205403).
 
 ---
 
