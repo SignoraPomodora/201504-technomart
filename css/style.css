@@ -20,3 +20,20 @@ h3 {
 	line-height: 24px;
 	color: black;
 }
+
+
+.header-top{
+	min-height: 42px;
+	background-color: red;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background-color: blue;
+}
+.about{
+	width: 300px;
+	min-height: 153px;
+}
