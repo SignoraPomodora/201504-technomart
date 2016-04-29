@@ -1,38 +1,157 @@
 body {
-  font-family: "Cuprum", sans-serif;
-  
+    font-family: "Cuprum", sans-serif;
+    min-width: 1200px;
+    min-height: 2250px;
 }
 
-h1 {
-	font-size: 36px;
-	line-height: 30px;
+
+.main-header {
+	background-color: #0ef049;
+	width: 940px;
+	margin: 0 auto;
+	padding: 5 5px;
+	padding-bottom: 20px;
 	
-}
-h2 {
-	font-size: 30px;
-	font-style: normal;
-	line-height: 30px;
-	color: #32425c;
-}
-h3 {
-	font-size: 30px;
-	font-style: normal;
-	line-height: 24px;
-	color: black;
 }
 
 .header-top{
-	min-height: 42px;
-	background-color: red;
+	background-color: #9c6450;
+	width: auto;
+	margin-left: -310px;
+	margin-right: -310px;
 }
 
 .container {
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 10px;
-	background-color: blue;
+	
 }
-.about{
+
+.user-block: {
 	width: 300px;
-	min-height: 153px;
+	
+}
+
+
+.navigation {
+	background-color: #0ed8f0;
+	margin-right: 20px;
+	margin-top: 20px;
+
+	
+}
+.breadcrumbs {
+	background-color: #a9a0d4;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+h1 {
+	font-size: 36px;
+	line-height: 30px;
+	
+} 
+.main-block {
+	width:940px;
+	margin: 0 auto;
+	background-color: #aba8a9;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.popular-goods{
+	background-color: #ba0feb;
+	margin-bottom: 10px;
+}
+h2 {
+	font-size: 30px;
+	font-style: normal;
+	line-height: 30px;
+	color: #32425c;
+} 
+
+
+.popular-items {
+	background-color: #b5adff;
+	display: inline-block;
+	width: 220px;
+	height: 318px;
+	margin: 5px;
+	margin-bottom: 10px;
+
+}
+.popular-manufacturers {
+	background-color: #0c6840;
+	margin-bottom: 10px;
+}
+.brands-logo {
+	background-color: #f85523;
+	margin-bottom: 10px;
+}
+.about-service, .about-delivery, .about-guarantee, .about-credit {
+	background-color: #0a6b3c;
+	margin-bottom: 10px;
+}
+
+
+
+h3 {
+	font-size: 18px;
+	font-style: normal;
+	line-height: 20px;
+	color: black;
+}
+.about-us, .contact-information {
+	background-color: #0183fc;
+	margin-bottom: 10px;
+}
+.filters {
+	width: 220px;
+	min-height: 1199px;
+	background: #f0dd0e;
+
+}
+
+.sort {
+	background-color: #03aff6;
+	float: right;
+	margin-top: -1216px;
+	width: 700px;
+	min-height: 35px;
+}
+.goods {
+	background-color: #b4f603;
+	min-height: 1033px;
+	width: 700px;
+	float: right;
+	margin-top: -1050px;
+	margin-right: 0px;
+	
+}
+.item{
+	display: inline-block;
+	height: 313px;
+	width: 220px;
+	float: right;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	padding: 0 0px;
+
+
+}
+.description {
+background-color: #e26426;
+padding: 10px;
+
+}
+.footer {
+ background-color: #57ed85;
+ padding: 10px;
+}
+.footer-bottom {
+	background-color: #d90cd2;
+	padding: 10px;
+	
 }
