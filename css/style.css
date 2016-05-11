@@ -1,21 +1,16 @@
 body {
-    font-family: "Myriad Pro Regular", "PT Sans Regular" "Cuprum", sans-serif;
+    font-family: "Cuprum", "PT Sans Regular", "Myriad Pro Regular",  sans-serif;
     min-width: 1200px;
-    min-height: 2250px;
+    margin: 0;
 }
 .main-header {
 	background-color: #f1f5f7;
-	margin: 0 auto;
-	padding: 5 5px;
 	padding-bottom: 20px;
 	
 }
 
 .header-top{
 	height: 40px;
-	width: auto;
-	margin-left: -310px;
-	margin-right: -310px;
     background-color: #293449;
 }
 .header-top:hover {
@@ -55,10 +50,13 @@ body {
 	background: url("../img/icon-search.png") no-repeat;
 	background-position: 0 0;
 }
-
+.search-form {
+	background: none;
+	border: none;
+}
 
 .search-form:hover {
-    background: #ffffff url("../img/hover-icon-search.png") no-repeat;
+    background: url("../img/hover-icon-search.png") no-repeat;
 
 }
 .bookmarks {
@@ -1404,7 +1402,7 @@ hr {
 .paginator {
 	margin-top: -55px;
 	margin-bottom: 50px;
-    margin-left: 240px;
+    margin-left: 560px;
     width: 300px;
     height: 38px;
 }
