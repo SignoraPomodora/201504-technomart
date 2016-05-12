@@ -2,8 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <link href='https://fonts.googleapis.com/css?family=Cuprum:400,400italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,700italic,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Cuprum:400,400italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
      <link href="css/normalize.css" rel="stylesheet">
      <link href="css/style.css" rel="stylesheet">
       <title>Техномарт</title>
@@ -15,8 +14,8 @@
         <a href="#" class="logo">Техномарт</a>
 
   <div class="search">
-     <form action="#" method="post" name="search-form">
-     <input type="text" class="search-form"><label>Поиск:</label>
+     <form action="#" method="post" class="search">
+     <input type="text" class="search-form" value="Поиск:">
    </form>
   </div>
   <div class="bookmarks">
@@ -28,6 +27,7 @@
   <div class="btn-order">
  <a href="#">Оформить заказ</a>
  </div>
+ <div class="clearfix"></div>
   </div>
    </div>
 <div class="container">
@@ -40,27 +40,19 @@
       <div class="phone">
       <span class="number">+7 (812) 555-05-55 </span>
       </div>
-        <div class="address">г.Санкт-Петербург, ул.Б.Конюшенная,д.19/8
+        <div class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
         </div>
     </div>
        <div class="user-block">
-         <span class="user">Равшан Джамшутович</span>
-         <div class="logout">
-         <ul>
-         <li>
-           <a href="#">exit</a>
-         </li>
-         </ul>
-           </div>
-        </div>
-         <div class="user-cabinet">
-          <ul>
-<li class="orders"><a href="#">Мои заказы</a></li>
-<li class="lc"><a href="#">Личный кабинет</a></li>
+         <div class="user">Равшан Джамшутович</div>
+           <a href="#" class="logout"></a>
+          <ul class="user-cabinet">
+            <li class="orders"><a href="#">Мои заказы</a></li>
+            <li class="lc"><a href="#">Личный кабинет</a></li>
           </ul>
+           <div class="clearfix"></div>
        </div>
- </div>
-    
+    </div>
       <div class="container">
       <nav class="navigation">
         <ul>
@@ -83,19 +75,22 @@
 <a class="tls" href="#">Инструмент</a>
               <span class="perf">Перфораторы</span>
            </div>
-       <h1>Перфораторы</h1>
+           <div class="category-perforator">
+              <h1>Перфораторы</h1>
+           </div>
       <div class="filters">
-         
            <span>Фильтр:</span>
            <h5>Цена:</h5>
              <form class="action" method="post" name="filter">
                <div class="range-filter">
                  <div class="range-controls">
-                     <div class="scale"></div>
-                       <div class="bar"></div>
-                        <a class="toggle min-toggle" href="#"></a>
-                        <a class="toggle max-toggle" href="#"></a>
+                  <div class="range-bg">
+                         <div class="scale"></div>
+                         <div class="bar"></div>
+                          <a class="toggle min-toggle" href="#"></a>
+                          <a class="toggle max-toggle" href="#"></a>
                   </div>
+                </div>
                <div class="price-controls">
                  <input class="min-price" type="text" value="0" > —
                  <input class="max-price" type="text" value="30 000">
@@ -110,31 +105,31 @@
                  <ul>
                   <li>
                  <input type="checkbox" checked>
-                 <span>Bosch</span>
+                 <label>Bosch</label>
                   </li>
                 </ul>
                 <ul>
                  <li>
                  <input type="checkbox">
-                 <span>Интерскол</span>
+                 <label>Интерскол</label>
                  </li>
                 </ul>
                 <ul>
                  <li>
                  <input type="checkbox" checked>
-                 <span>Makita</span>
+                 <label>Makita</label>
                  </li>
                 </ul>
                 <ul>
                  <li>
                  <input type="checkbox">
-                 <span>Dewalt</span>
+                 <label>Dewalt</label>
                  </li>
                 </ul>
                 <ul>
                  <li>
                  <input type="checkbox">
-                 <span>Hitachi</span>
+                 <label>Hitachi</label>
                  </li>
                 </ul>
            </div>
@@ -145,13 +140,13 @@
                     <ul>
                       <li>
                       <input type="radio" checked>
-                      <span>Аккумуляторные</span>
+                      <label>Аккумуляторные</label>
                       </li>
                     </ul>
                     <ul>
                       <li>
                       <input type="radio">
-                      <span>Сетевые</span>
+                      <label>Сетевые</label>
                       </li>
                   </ul>
                   </div>
@@ -163,22 +158,21 @@
     </div>
       <div class="catalog">
             <div class="sort">
-               <span>Соритровка:</span>
+               <span>Сортировка:</span>
                  <div class="sorter">
                    <ul>
                     <li><a href="#" class="active">По цене</a></li>
                     <li><a href="#">По типу</a></li>
                     <li><a href="#">По функционалу</a></li>
                   </ul>
-                  </div>
-                  <div class="icons">
-                  <ul>
-                    <li><a href="#">up</a></li>
-                    <li><a href="#">down</a></li>
+                 </div>
+                  <ul class="icons">
+                    <li><a href="#" class="up"></a></li>
+                    <li><a href="#" class="down"></a></li>
                   </ul>
-                  </div>
+                <div class="clearfix">
                 </div>
-            </div>
+              </div>
 
         <div class="goods">
           <div class="item">
@@ -280,18 +274,19 @@
                  <div class="price-before"></div>
               <div class="buy-button"><a href="#">12 500р.</a></div>
           </div>
+          <ul class="paginator">
+               <li><a class="current" href="#1">1</a></li>
+               <li><a class="page2" href="#2">2</a></li>
+               <li><a class="page3" href="#3">3</a></li>
+               <li><a class="next" href="#">Следующая</a></li>
+          </ul>
        </div>
-      </div>
-         <div class="paginator">
-               <a class=" current" href="#1">1</a>
-               <a class="page2" href="#2">2</a>
-               <a class="page3" href="#3">3</a>
-               <a class="next" href="#">Следующая</a>
-          </div>
+      </div>    
+  </div>
   </div>
         <div class="description">
            <div class="container">
-              <h2>Пара слов о перфораторах</h2>
+              <h2 class="about-perforators">Пара слов о перфораторах</h2>
              <p>Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
              Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции шуруповерта, дрели и отбойного молотка. В<br>ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
            </div>
@@ -299,9 +294,7 @@
     <footer class="main-footer">
       <div class="footer">
        <div class="container">
-       <div class="footer-logo">
-        <a href="#">Техномарт</a>
-        </div>
+        <a href="#" class="footer-logo">Техномарт</a>
           <nav class="footer-navigation">
             <ul>
               <li><a href="#">Компания</a></li>
@@ -314,7 +307,7 @@
        </div>
          <div class="container">
           <div class="footer-info">
-           <span>г. Санкт-Петербург, ул. Б.Конюшенная, д.19/8<br>
+           <span>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
            +7 (812) 555-05-55</span>
            </div>
            <div class="quick-nav">
@@ -353,5 +346,21 @@
         </div>
       </div>
     </footer>
+    <div class="modal">
+        <div class="good-in-basket">Товар добавлен в корзину!
+        </div>
+        <div class="circle-add-good">
+            <img src="img/add-good-icon.png" width="39" height="30" alt="add-good-to-basket">
+        </div>
+        <div class="cross">
+           <img src="img/cross-btn.png" width="21" height="21" alt="cross">
+        </div>
+        <div class="btn-block">
+          <ul>
+            <li><a class="finish" href="#">Оформить заказ</a></li>
+            <li><a class="continue" href="#">Продолжить покупки</a></li>
+          </ul>
+        </div>
+    </div>
   </body>  
 </html>
