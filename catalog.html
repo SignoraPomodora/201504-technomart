@@ -80,8 +80,8 @@
            </div>
       <div class="filters">
            <span>Фильтр:</span>
-           <h5>Цена:</h5>
-             <form class="action" method="post" name="filter">
+           <h5><b>Цена:</b></h5>
+             <form class="action" method="get" name="filter">
                <div class="range-filter">
                  <div class="range-controls">
                   <div class="range-bg">
@@ -93,7 +93,7 @@
                 </div>
                <div class="price-controls">
                  <input class="min-price" type="text" value="0" > —
-                 <input class="max-price" type="text" value="30 000">
+                 <input class="max-price" type="text" value="30000">
                </div>
               </div>
           
@@ -104,32 +104,32 @@
                <div class="brands">
                  <ul>
                   <li>
-                 <input type="checkbox" checked>
-                 <label>Bosch</label>
+                 <input type="checkbox" checked id="ch1">
+                 <label for="ch1">Bosch</label>
                   </li>
                 </ul>
                 <ul>
                  <li>
-                 <input type="checkbox">
-                 <label>Интерскол</label>
+                 <input type="checkbox" id="ch2">
+                 <label for="ch2">Интерскол</label>
                  </li>
                 </ul>
                 <ul>
                  <li>
-                 <input type="checkbox" checked>
-                 <label>Makita</label>
+                 <input type="checkbox" checked id="ch3">
+                 <label for="ch3">Makita</label>
                  </li>
                 </ul>
                 <ul>
                  <li>
-                 <input type="checkbox">
-                 <label>Dewalt</label>
+                 <input type="checkbox" id="ch4">
+                 <label for="ch4">Dewalt</label>
                  </li>
                 </ul>
                 <ul>
                  <li>
-                 <input type="checkbox">
-                 <label>Hitachi</label>
+                 <input type="checkbox" id="ch5">
+                 <label for="ch5">Hitachi</label>
                  </li>
                 </ul>
            </div>
@@ -139,14 +139,14 @@
                   <div class="charge-filter">
                     <ul>
                       <li>
-                      <input type="radio" checked>
-                      <label>Аккумуляторные</label>
+                      <input type="radio" checked id="r1">
+                      <label for="r1">Аккумуляторные</label>
                       </li>
                     </ul>
                     <ul>
                       <li>
-                      <input type="radio">
-                      <label>Сетевые</label>
+                      <input type="radio" id="r2">
+                      <label for="r2">Сетевые</label>
                       </li>
                   </ul>
                   </div>
@@ -289,6 +289,9 @@
              Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции шуруповерта, дрели и отбойного молотка. В<br>ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
            </div>
         </div> 
+        <span class="sprite sprite-social-vk"></span>
+      <span class="sprite sprite-social-fb"></span>
+      <span class="sprite sprite-social-inst"></span>
     <footer class="main-footer">
       <div class="footer">
        <div class="container">
@@ -324,21 +327,17 @@
                 <span>© 2010-2016 Компания «Техномарт»<br>
                 Все права защищены</span>   
                  <div class="footer-social">
-                   <a class="social-btn-vk" href="#"><div class="circle">
-                     <img src="img/icon-vk-text.png" width="20" height="12" alt="Вконтакте"></div>
-                   </a>
-                   <a class="social-btn-fb" href="#">
-                   <div class="circle"><img src="img/icon-facebook-text.png" width="10" height="18" alt="Facebook"></div></a>
-                   <a class="social-btn-inst" href="#">
-                    <div class="circle"><img src="img/icon-instagramm-text.png" width="17" height="17" alt="Instagram"></div></a>
-              </div>
+   <a class="social-btn social-btn-vk" href="#"></a>
+   <a class="social-btn social-btn-fb" href="#"></a>
+   <a class="social-btn social-btn-inst" href="#"></a>
+</div>
                <div class="feedback">
                  Обратная связь:<br>
-                 <a class="back">mail@htmlacademy.ru</a>
+                 <a class="back" href="#">mail@htmlacademy.ru</a>
                </div>
                   <div class="development">
                    Разработано - 
-                   <a class="site">htmlacademy.ru</a>
+                   <a class="site" href="#">htmlacademy.ru</a>
                   </div>
             </div>
         </div>
