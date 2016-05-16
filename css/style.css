@@ -919,6 +919,8 @@ h2 {
 	display: inline-block;
 	padding-left: 0px;
 	list-style: none;
+	font-family: 'Cuprum';
+	font-weight: bold;
     box-shadow: 2px 0 2px 0 #c2c2c2;
 }
 .about-service li {
@@ -946,20 +948,17 @@ h2 {
 .about-service li:hover {
 	background-color: #293449;
 }
-.about-service li:active {
-	background-color: #ffffff;
-	border: none;
 
+.about-service .current-menu li:link {
+	background-color: #32425c;
 }
-.about-service a:active {
-	color: #32425c;
+.about-service .current-menu li:hover {
+	background-color: #293449;
 }
 .about-service .current-menu a:hover {
 	color: #ffffff;
 }
-.about-service .current-menu a:active {
-	color: #32425c;
-}
+
 .about-delivery {
     padding-left: 40px;
     padding-bottom: 40px;
@@ -1781,6 +1780,7 @@ input[type="radio"]:checked + label::after {
 }
 .footer-navigation a:active {
 	opacity: 0.5;
+	text-decoration: none;
 }
 .footer-info {
 	color: #ffffff;
@@ -1810,6 +1810,7 @@ input[type="radio"]:checked + label::after {
 }
 .quick-nav a:active {
 	opacity: 0.5;
+	text-decoration: none;
 }
 .footer-bottom {
 	background-color: #293449;
